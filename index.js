@@ -105,5 +105,5 @@ const errorHandling = (err, req, res, next) => {
 app.use(errorHandling);
 
 app.listen(8080, async () => {
-    console.log('Proxy server is running on http://localhost:8080');
+    console.log('Server listening on http://localhost:8080');
 });
