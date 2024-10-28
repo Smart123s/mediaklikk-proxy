@@ -1,17 +1,17 @@
 #EXTM3U
-#EXTINF:0, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/M1_2020.png" group-title="",M1
+#EXTINF:0, tvg-id="m1.hu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/M1_2020.png" group-title="",M1
 /mtv1live/index.m3u8
-#EXTINF:1, tvg-logo="https://upload.wikimedia.org/wikipedia/hu/b/b5/M2_gyerekcsatorna_log%C3%B3ja.png" group-title="",M2
+#EXTINF:1, tvg-id="m2.hu" tvg-logo="https://upload.wikimedia.org/wikipedia/hu/b/b5/M2_gyerekcsatorna_log%C3%B3ja.png" group-title="",M2
 /mtv2live/index.m3u8
-# #EXTINF:2, tvg-logo="https://upload.wikimedia.org/wikipedia/hu/b/b6/M3_logo.png" group-title="",M3
+# #EXTINF:2, tvg-id="m3.hu" tvg-logo="https://upload.wikimedia.org/wikipedia/hu/b/b6/M3_logo.png" group-title="",M3
 # /mtv3/index.m3u8
-#EXTINF:3, tvg-logo="https://upload.wikimedia.org/wikipedia/hu/f/fd/M4_logo.png" group-title="",M4 Sport
+#EXTINF:3, tvg-id="M4Sport.hu" tvg-logo="https://upload.wikimedia.org/wikipedia/hu/f/fd/M4_logo.png" group-title="",M4 Sport
 /mtv4live/index.m3u8
-#EXTINF:4, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5b/M4_Sport%2B_logo.png" group-title="",M4 Sport+
+#EXTINF:4, tvg-id="M4SportPlusz.hu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5b/M4_Sport%2B_logo.png" group-title="",M4 Sport+
 /mtv4plus/index.m3u8
-#EXTINF:5, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b4/M5logo.png" group-title="",M5
+#EXTINF:5, tvg-id="m5.hu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b4/M5logo.png" group-title="",M5
 /mtv5live/index.m3u8
-#EXTINF:6, tvg-logo="https://upload.wikimedia.org/wikipedia/hu/d/d3/Dunatv_logo.png" group-title="",Duna
+#EXTINF:6, tvg-id="Duna.hu" tvg-logo="https://upload.wikimedia.org/wikipedia/hu/d/d3/Dunatv_logo.png" group-title="",Duna
 /dunalive/index.m3u8
-#EXTINF:7, tvg-logo="https://upload.wikimedia.org/wikipedia/hu/b/bd/Duna_world_log%C3%B3.png" group-title="",Duna World
+#EXTINF:7, tvg-id="Duna2.hu" tvg-logo="https://upload.wikimedia.org/wikipedia/hu/b/bd/Duna_world_log%C3%B3.png" group-title="",Duna World
 /dunaworldlive/index.m3u8
