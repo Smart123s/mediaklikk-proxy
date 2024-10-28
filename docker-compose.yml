@@ -1,0 +1,7 @@
+services:
+  mediaklikk-proxy:
+    image: ghcr.io/smart123s/mediaklikk-proxy
+    container_name: mediaklikk-proxy
+    restart: always
+    ports:
+      - 80:8080

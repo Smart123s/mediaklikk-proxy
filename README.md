@@ -16,4 +16,6 @@ docker build -t ghcr.io/smart123s/mediaklikk-proxy:latest .
 ```
 
 # Running (docker compose)
-todo
+```bash
+docker compose up
+```
