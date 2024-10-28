@@ -104,6 +104,8 @@ const errorHandling = (err, req, res, next) => {
   };
 app.use(errorHandling);
 
-app.listen(8080, async () => {
-    console.log('Server listening on http://localhost:8080');
+const port = process.env.PORT || 8080;
+
+app.listen(port, async () => {
+    console.log('Server listening on http://localhost:' + port);
 });
