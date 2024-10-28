@@ -1,5 +1,32 @@
 const express = require('express');
+const fs = require('fs');
+const path = require('path');
 require("express-async-errors");
+
+const loadAndReplaceM3U = () => {
+    const filePath = path.join(__dirname, 'sample.m3u');
+    const outputPath = path.join(__dirname, 'static', 'index.m3u');
+    const baseUrl = process.env.BASE_URL || 'http://localhost:8080';
+
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err) {
+            console.error('Error reading sample.m3u:', err);
+            return;
+        }
+
+        const result = data.replace(/\$BASE_URL/g, baseUrl);
+
+        fs.writeFile(outputPath, result, 'utf8', (err) => {
+            if (err) {
+                console.error('Error writing to static/index.m3u:', err);
+            } else {
+                console.log('static/index.m3u has been saved.');
+            }
+        });
+    });
+};
+
+loadAndReplaceM3U();
 
 const app = express();
 app.use('/', express.static('static'));
